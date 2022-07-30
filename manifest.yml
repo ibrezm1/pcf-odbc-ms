@@ -1,5 +1,10 @@
 ---
 applications:
- - name: GetStartedPython
-   random-route: true
-   memory: 128M
+- name: GetStartedPython
+  random-route: true
+  memory: 256M
+  buildpacks:
+  - https://github.com/cloudfoundry/apt-buildpack
+  - python_buildpack
+  env:
+    ACCEPT_EULA: Y
