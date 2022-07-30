@@ -122,3 +122,9 @@ apt-get download $(apt-rdepends msodbcsql17 | grep -v "^ " | sed 's/debconf-2.0/
 
 
 ibmcloud cf services
+
+
+   WARNING: The script normalizer is installed in '/tmp/contents520935262/deps/1/python/bin' which is not on PATH.
+   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+   WARNING: The script flask is installed in '/tmp/contents520935262/deps/1/python/bin' which is not on PATH.
+   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
